@@ -1,0 +1,14 @@
+ environment: production
+ chdir:  /home/mohammed/projects/mazen/client/hr
+ address: 127.0.0.1
+ user: mohammed
+ group: mohammed
+                          port: 9494
+                               pid:  /home/mohammed/projects/mazen/client/hr/thin.pid
+                                    rackup: /home/mohammed/projects/mazen/client/hr/config.ru
+                                         log:  /home/mohammed/projects/mazen/client/hr/thin.log
+                                              max_conns: 1024
+                                                   timeout: 30
+                                                        max_persistent_conns: 512
+                                                             daemonize: true
+
