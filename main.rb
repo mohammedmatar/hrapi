@@ -6,7 +6,7 @@ require 'dm-migrations'
 require 'sinatra/cross_origin'
 
 set :environment, :production
-set :bind, '0.0.0.0'
+set :bind, '192.168.12.1'
 configure :development do
   enable :cross_origin
   DataMapper::Logger.new($stdout, :debug)
